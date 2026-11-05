@@ -6,7 +6,7 @@
 /*   By: aradix <444nt000@proton.me>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 16:24:22 by aradix            #+#    #+#             */
-/*   Updated: 2026/11/03 16:30:03 by aradix           ###   ########.fr       */
+/*   Updated: 2026/11/04 13:12:04 by aradix           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*new_lst;
 	t_list	*node;
 
-	if (!lst || !f || !del)
+	if (!lst || !f)
 		return (NULL);
 	new_lst = NULL;
 	while (lst)

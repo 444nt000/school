@@ -6,7 +6,7 @@
 /*   By: aradix <444nt000@proton.me>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 12:03:36 by aradix            #+#    #+#             */
-/*   Updated: 2026/10/19 12:38:02 by aradix           ###   ########.fr       */
+/*   Updated: 2026/11/04 12:34:05 by aradix           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ char	*ft_itoa(int n)
 {
 	char	*ret;
 	int		size;
-	bool	neg;
+	short	neg;
 
 	neg = (n < 0);
 	size = count_digits(n);
